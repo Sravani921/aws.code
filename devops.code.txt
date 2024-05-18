@@ -22,5 +22,19 @@ class Main {
     int sum = first + second;
     System.out.println(first + " + " + second + " = "  + sum);
   }
+#feature302 worked by Vaishnavi on google applications on oct2023
+
+}public class AsciiValue {
+
+    public static void main(String[] args) {
+
+        char ch = 'a';
+        int ascii = ch;
+        // You can also cast char to int
+        int castAscii = (int) ch;
+
+        System.out.println("The ASCII value of " + ch + " is: " + ascii);
+        System.out.println("The ASCII value of " + ch + " is: " + castAscii);
+    }
 }
 }
